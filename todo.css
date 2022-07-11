@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    display:flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.zurag{
+    width: 30px;
+    height: 30px;
+   background-image: url(https://www.freeiconspng.com/thumbs/checkmark-png/checkmark-png-5.png);
+   background-position: center;
+   background-size: cover;
+display: none;
+   
+   
+}
+.header{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 3px solid #00B2FF;
+    border-radius:10px ;
+}
+#nemeh{
+    width: 35px;
+    height: 35px;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00B2FF ;
+    color: white;
+    margin-right: 8px;
+    border-radius:50%;
+    border: none;
+   
+}
+input{
+    width: 210px;
+    height: 30px;
+    border:none;
+    color: black;
+}
+.listcontainer{
+    width: 85%;
+    margin: 10px auto;
+    height: 500px;
+    overflow:scroll;
+    border: 1px solid transparent;
+}
+.listcontainer::-webkit-scrollbar {
+    display: none;
+}
+.listBox{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #00B2FF;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+#delete{
+  font-size: 30px;
+  margin-right: 10px;
+}
+.ThisDone{
+    display: none;
+}
